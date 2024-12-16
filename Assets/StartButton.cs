@@ -8,5 +8,6 @@ public class StartButton : MonoBehaviour
     public void BeginScene()
     {
         SceneManager.LoadScene(1);
+        GetComponent<AudioSource>().Play();
     }
 }
